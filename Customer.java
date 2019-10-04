@@ -70,9 +70,9 @@ public class Customer extends Thread implements Comparable<Customer> {
      */
     public void run() {
         try {
-            Thread.sleep(arrivalTime * Timer.QUANTUM);
+            Thread.sleep(arrivalTime * Timer.QUANTUM + Timer.EPSILON);
             arrive();
-            Thread.sleep(eatingTime * Timer.QUANTUM);
+            Thread.sleep(eatingTime * Timer.QUANTUM + Timer.EPSILON);
             this.stats += leave();
         } catch (Exception e) {
             System.out.format("Error: %s", e.getMessage());

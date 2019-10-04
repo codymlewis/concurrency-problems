@@ -12,6 +12,7 @@ public class Timer extends Thread {
      * Amount of time (ms) for a single unit of sleep
      */
     public static final int QUANTUM = 100;
+    public static final int EPSILON = 5;
 
     /**
      * Default constructor
