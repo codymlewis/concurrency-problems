@@ -18,15 +18,20 @@ Client	Client.java	/^    public Client(String id, int brewTime, CoffeeMachine co
 Client	Client.java	/^public class Client extends Thread implements Comparable<Client> {$/;"	c
 CoffeeMachine	CoffeeMachine.java	/^    public CoffeeMachine() {$/;"	m	class:CoffeeMachine
 CoffeeMachine	CoffeeMachine.java	/^public class CoffeeMachine {$/;"	c
+Concurrency Problems	README.md	/^# Concurrency Problems$/;"	c
 Customer	Customer.java	/^    public Customer(int arrivalTime, String id, int eatingTime, Parlour parlour) throws Exceptio/;"	m	class:Customer
 Customer	Customer.java	/^public class Customer extends Thread implements Comparable<Customer> {$/;"	c
 EPSILON	SyncTimer.java	/^    public static final int EPSILON = 1;$/;"	f	class:SyncTimer
+EPSILON	Timer.java	/^    public static final int EPSILON = 5;$/;"	f	class:Timer
 Farmer	Farmer.java	/^    public Farmer(String id, Bridge bridge, String headingTo) {$/;"	m	class:Farmer
 Farmer	Farmer.java	/^public class Farmer extends Thread {$/;"	c
 Hot or Iced Coffee?	Report.md	/^# Hot or Iced Coffee?$/;"	c
 Ice-Cream Time	Report.md	/^# Ice-Cream Time$/;"	c
 Parlour	Parlour.java	/^    public Parlour() {$/;"	m	class:Parlour
 Parlour	Parlour.java	/^public class Parlour {$/;"	c
+Part A	README.md	/^## Part A$/;"	s
+Part B	README.md	/^## Part B$/;"	s
+Part C	README.md	/^## Part C$/;"	s
 QUANTUM	SyncTimer.java	/^    public static final int QUANTUM = 50;$/;"	f	class:SyncTimer
 QUANTUM	Timer.java	/^    public static final int QUANTUM = 100;$/;"	f	class:Timer
 SessionLoad	Session.vim	/^let SessionLoad = 1$/;"	v
