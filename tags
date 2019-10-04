@@ -1,0 +1,137 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/9787a6c0/
+A2A	A2A.java	/^public class A2A {$/;"	c
+A2A	Makefile	/^A2A:$/;"	t
+A2B	A2B.java	/^public class A2B {$/;"	c
+A2B	Makefile	/^A2B:$/;"	t
+A2C	A2C.java	/^public class A2C {$/;"	c
+A2C	Makefile	/^A2C:$/;"	t
+Bridge	Bridge.java	/^    public Bridge() {$/;"	m	class:Bridge
+Bridge	Bridge.java	/^    public Bridge(int length) {$/;"	m	class:Bridge
+Bridge	Bridge.java	/^public class Bridge {$/;"	c
+Client	Client.java	/^    public Client(String id, int brewTime, CoffeeMachine coffeeMachine) {$/;"	m	class:Client
+Client	Client.java	/^public class Client extends Thread implements Comparable<Client> {$/;"	c
+CoffeeMachine	CoffeeMachine.java	/^    public CoffeeMachine() {$/;"	m	class:CoffeeMachine
+CoffeeMachine	CoffeeMachine.java	/^public class CoffeeMachine {$/;"	c
+Customer	Customer.java	/^    public Customer(int arrivalTime, String id, int eatingTime, Parlour parlour) throws Exceptio/;"	m	class:Customer
+Customer	Customer.java	/^public class Customer extends Thread implements Comparable<Customer> {$/;"	c
+EPSILON	SyncTimer.java	/^    public static final int EPSILON = 1;$/;"	f	class:SyncTimer
+Farmer	Farmer.java	/^    public Farmer(String id, Bridge bridge, String headingTo) {$/;"	m	class:Farmer
+Farmer	Farmer.java	/^public class Farmer extends Thread {$/;"	c
+Hot or Iced Coffee?	Report.md	/^# Hot or Iced Coffee?$/;"	c
+Ice-Cream Time	Report.md	/^# Ice-Cream Time$/;"	c
+Parlour	Parlour.java	/^    public Parlour() {$/;"	m	class:Parlour
+Parlour	Parlour.java	/^public class Parlour {$/;"	c
+QUANTUM	SyncTimer.java	/^    public static final int QUANTUM = 50;$/;"	f	class:SyncTimer
+QUANTUM	Timer.java	/^    public static final int QUANTUM = 100;$/;"	f	class:Timer
+SessionLoad	Session.vim	/^let SessionLoad = 1$/;"	v
+Sharing the Bridge	Report.md	/^# Sharing the Bridge$/;"	c
+SyncTimer	SyncTimer.java	/^    public SyncTimer() {$/;"	m	class:SyncTimer
+SyncTimer	SyncTimer.java	/^public class SyncTimer extends Thread {$/;"	c
+Tap	CoffeeMachine.java	/^        public Tap(int id) {$/;"	m	class:CoffeeMachine.Tap
+Tap	CoffeeMachine.java	/^    public class Tap {$/;"	c	class:CoffeeMachine
+Timer	Timer.java	/^    public Timer() {$/;"	m	class:Timer
+Timer	Timer.java	/^public class Timer extends Thread {$/;"	c
+accessCustomers	Parlour.java	/^    private Semaphore accessCustomers;$/;"	f	class:Parlour	file:
+accessTime	Parlour.java	/^    private Semaphore accessTime;$/;"	f	class:Parlour	file:
+addClient	CoffeeMachine.java	/^    public void addClient(Client client) {$/;"	m	class:CoffeeMachine
+addEvent	Parlour.java	/^    public void addEvent(Customer customer) throws Exception {$/;"	m	class:Parlour
+alive	SyncTimer.java	/^    private boolean alive;$/;"	f	class:SyncTimer	file:
+alive	Timer.java	/^    private boolean alive;$/;"	f	class:Timer	file:
+all	Makefile	/^all: clean A2B A2C$/;"	t
+arrivalTime	Customer.java	/^    private int arrivalTime;$/;"	f	class:Customer	file:
+arrive	Customer.java	/^    public void arrive() throws Exception {$/;"	m	class:Customer
+availabilty	Bridge.java	/^    private Semaphore availabilty;$/;"	f	class:Bridge	file:
+availableSeats	Parlour.java	/^    private int availableSeats;$/;"	f	class:Parlour	file:
+blocked	Farmer.java	/^    private boolean blocked;$/;"	f	class:Farmer	file:
+brewTime	Client.java	/^    private int brewTime;$/;"	f	class:Client	file:
+bridge	Farmer.java	/^    private Bridge bridge;$/;"	f	class:Farmer	file:
+canCross	Farmer.java	/^    private boolean canCross;$/;"	f	class:Farmer	file:
+changeHeat	CoffeeMachine.java	/^    private boolean changeHeat;$/;"	f	class:CoffeeMachine	file:
+clean	Makefile	/^clean:$/;"	t
+coffeeMachine	Client.java	/^    private CoffeeMachine coffeeMachine;$/;"	f	class:Client	file:
+compareTo	Client.java	/^    public int compareTo(Client other) {$/;"	m	class:Client
+compareTo	Customer.java	/^    public int compareTo(Customer other) {$/;"	m	class:Customer
+cross	Farmer.java	/^    public boolean cross(int amount) {$/;"	m	class:Farmer
+customers	Parlour.java	/^    private Set<Customer> customers;$/;"	f	class:Parlour	file:
+distStepped	Farmer.java	/^    private int distStepped;$/;"	f	class:Farmer	file:
+eatingTime	Customer.java	/^    private int eatingTime;$/;"	f	class:Customer	file:
+eventTimes	CoffeeMachine.java	/^    private PriorityQueue<Integer> eventTimes;$/;"	f	class:CoffeeMachine	file:
+finishEatingTime	Customer.java	/^    private int finishEatingTime;$/;"	f	class:Customer	file:
+g:this_obsession	Session.vim	/^let g:this_obsession = v:this_session$/;"	v
+g:this_session	Session.vim	/^let g:this_session = v:this_session$/;"	v
+getBrewTime	Client.java	/^    public int getBrewTime() {$/;"	m	class:Client
+getID	Client.java	/^    public String getID() {$/;"	m	class:Client
+getID	CoffeeMachine.java	/^        public int getID() {$/;"	m	class:CoffeeMachine.Tap
+getID	Customer.java	/^    public String getID() { return id; }$/;"	m	class:Customer
+getLength	Bridge.java	/^    public int getLength() {$/;"	m	class:Bridge
+getTime	CoffeeMachine.java	/^    public int getTime() {$/;"	m	class:CoffeeMachine
+getTime	SyncTimer.java	/^    public synchronized int getTime() {$/;"	m	class:SyncTimer
+getTime	Timer.java	/^    public int getTime() {$/;"	m	class:Timer
+gettingHot	Client.java	/^    public boolean gettingHot() {$/;"	m	class:Client
+hasEvents	Parlour.java	/^    public boolean hasEvents() throws Exception {$/;"	m	class:Parlour
+headingTo	Farmer.java	/^    private String headingTo;$/;"	f	class:Farmer	file:
+id	Client.java	/^    private String id;$/;"	f	class:Client	file:
+id	CoffeeMachine.java	/^        private int id;$/;"	f	class:CoffeeMachine.Tap	file:
+id	Customer.java	/^    private String id;$/;"	f	class:Customer	file:
+id	Farmer.java	/^    private String id;$/;"	f	class:Farmer	file:
+incrementNeon	Bridge.java	/^    public void incrementNeon() {$/;"	m	class:Bridge
+isHot	Client.java	/^    private boolean isHot;$/;"	f	class:Client	file:
+kill	SyncTimer.java	/^    public synchronized void kill() {$/;"	m	class:SyncTimer
+kill	Timer.java	/^    public void kill() {$/;"	m	class:Timer
+leave	Customer.java	/^    public int leave() throws Exception {$/;"	m	class:Customer
+leave	Parlour.java	/^    public int leave(Customer customer) throws Exception {$/;"	m	class:Parlour
+length	Bridge.java	/^    private int length;$/;"	f	class:Bridge	file:
+line	CoffeeMachine.java	/^    private Queue<Client> line;$/;"	f	class:CoffeeMachine	file:
+linkcolor: blue	Report.md	/^linkcolor: blue$/;"	s
+main	A2A.java	/^    public static void main(String args[]) {$/;"	m	class:A2A
+main	A2B.java	/^    public static void main(String[] args) {$/;"	m	class:A2B
+main	A2C.java	/^    public static void main(String[] args) {$/;"	m	class:A2C
+neon	Bridge.java	/^    private int neon;$/;"	f	class:Bridge	file:
+nextTap	CoffeeMachine.java	/^    public Tap nextTap() {$/;"	m	class:CoffeeMachine
+numberTaps	CoffeeMachine.java	/^    private int numberTaps;$/;"	f	class:CoffeeMachine	file:
+parlour	Customer.java	/^    private Parlour parlour;$/;"	f	class:Customer	file:
+parseFile	A2B.java	/^    private Collection<Customer> parseFile(String filename, Parlour parlour) {$/;"	m	class:A2B	file:
+parseFile	A2C.java	/^    private Collection<Client> parseFile(String filename, CoffeeMachine coffeeMachine) {$/;"	m	class:A2C	file:
+report	Makefile	/^report:$/;"	t
+returnTap	CoffeeMachine.java	/^    public synchronized void returnTap(Tap tap) {$/;"	m	class:CoffeeMachine
+run	A2B.java	/^    public void run(String filename) throws Exception {$/;"	m	class:A2B
+run	A2C.java	/^    public void run(String filename) {$/;"	m	class:A2C
+run	Client.java	/^    public void run() {$/;"	m	class:Client
+run	CoffeeMachine.java	/^    public synchronized void run() throws Exception {$/;"	m	class:CoffeeMachine
+run	Customer.java	/^    public void run() {$/;"	m	class:Customer
+run	Farmer.java	/^    public void run() {$/;"	m	class:Farmer
+run	SyncTimer.java	/^    public void run() {$/;"	m	class:SyncTimer
+run	Timer.java	/^    public void run() {$/;"	m	class:Timer
+s:l	Session.vim	/^let s:l = 4 - ((3 * winheight(0) + 27) \/ 55)$/;"	v
+s:so_save	Session.vim	/^let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0$/;"	v
+s:sx	Session.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v
+s:wipebuf	Session.vim	/^  let s:wipebuf = bufnr('%')$/;"	v
+seats	Parlour.java	/^    private Semaphore seats;$/;"	f	class:Parlour	file:
+servingHot	CoffeeMachine.java	/^    private boolean servingHot;$/;"	f	class:CoffeeMachine	file:
+signalBridge	Bridge.java	/^    public void signalBridge() {$/;"	m	class:Bridge
+start	Parlour.java	/^    public void start() {$/;"	m	class:Parlour
+startEating	Customer.java	/^    public void startEating(int time) {$/;"	m	class:Customer
+startTimer	CoffeeMachine.java	/^    public void startTimer() {$/;"	m	class:CoffeeMachine
+stats	Customer.java	/^    private String stats;$/;"	f	class:Customer	file:
+stopTimer	CoffeeMachine.java	/^    public void stopTimer() {$/;"	m	class:CoffeeMachine
+stopTimer	Parlour.java	/^    public void stopTimer() {$/;"	m	class:Parlour
+summary	Customer.java	/^    public String summary() {$/;"	m	class:Customer
+takeSeat	Parlour.java	/^    public int takeSeat(Customer customer) throws Exception {$/;"	m	class:Parlour
+taps	CoffeeMachine.java	/^    private Stack<Tap> taps;$/;"	f	class:CoffeeMachine	file:
+time	SyncTimer.java	/^    private int time;$/;"	f	class:SyncTimer	file:
+time	Timer.java	/^    private int time;$/;"	f	class:Timer	file:
+timer	CoffeeMachine.java	/^    private SyncTimer timer;$/;"	f	class:CoffeeMachine	file:
+timer	Parlour.java	/^    private Timer timer;$/;"	f	class:Parlour	file:
+toString	Farmer.java	/^    public String toString() {$/;"	m	class:Farmer
+toWait	Farmer.java	/^    private boolean toWait;$/;"	f	class:Farmer	file:
+totalSeats	Parlour.java	/^    private int totalSeats;$/;"	f	class:Parlour	file:
+wait	Parlour.java	/^    private Semaphore wait;$/;"	f	class:Parlour	file:
+waitForBridge	Bridge.java	/^    public void waitForBridge(Farmer farmer) throws Exception {$/;"	m	class:Bridge
+waitMode	Parlour.java	/^    private boolean waitMode;$/;"	f	class:Parlour	file:
+waiting	Farmer.java	/^    public void waiting() {$/;"	m	class:Farmer
